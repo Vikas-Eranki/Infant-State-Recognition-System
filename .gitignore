@@ -1,6 +1,6 @@
 # Dataset - too large for GitHub
-data/raw/
-data/processed/
+data/raw_baby_cry_sense_dataset/
+data/processed_baby_cry_sense_dataset/
 
 # Python
 __pycache__/
