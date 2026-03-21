@@ -56,3 +56,20 @@ This dataset is compiled from multiple sources:
 ## ⚠️ Notes
 - Class distribution is **imbalanced** (majority class: *hungry*).
 - Preprocessing and augmentation may be required for optimal model performance.
+
+
+
+## Dataset Setup
+1. Download the Baby Cry Sense Dataset (1126 samples) from:
+   https://www.kaggle.com/datasets/mennaahmed23/baby-cry-dataset/data
+2. Extract and place the audio files in `data/raw/` following this structure:
+
+data/raw/
+├── belly_pain/
+├── burping/
+├── cold_hot/
+├── discomfort/
+├── hungry/
+├── lonely/
+├── scared/
+└── tired/

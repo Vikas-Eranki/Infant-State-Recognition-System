@@ -1,0 +1,30 @@
+# Dataset - too large for GitHub
+data/raw_baby_cry_sense_dataset/
+data/processed_baby_cry_sense_dataset/
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
