@@ -1,0 +1,14 @@
+{
+  "target_sr": 22050,
+  "target_duration": 7.0,
+  "target_samples": 154350,
+  "amplitude_threshold": 0.01,
+  "epsilon": 1e-09,
+  "augment_minority": true,
+  "min_samples_per_class": 130,
+  "total_raw_files": 1126,
+  "total_valid_files": 1126,
+  "total_passed_qc": 1125,
+  "total_after_augmentation": 1334,
+  "total_saved": 1334
+}
