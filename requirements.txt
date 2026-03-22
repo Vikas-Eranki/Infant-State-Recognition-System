@@ -1,10 +1,31 @@
-librosa==0.10.1
-numpy==1.26.4
-pandas==2.2.1
-matplotlib==3.8.4
-seaborn==0.13.2
-scikit-learn==1.4.2
+# ── Core audio processing ─────────────────────────────────────────────────────
+librosa==0.11.0
 soundfile==0.12.1
 audioread==3.0.1
+
+# ── Numerical and data ────────────────────────────────────────────────────────
+numpy==2.0.2
+pandas==2.2.1
+scipy==1.13.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Machine learning (Phase 1 baseline) ──────────────────────────────────────
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# ── Deep learning (Phase 2 and 3) ────────────────────────────────────────────
+tensorflow==2.16.1
+tflite-runtime==2.14.0
+# torch==2.3.0  # optional: only if Phase 3 uses PyTorch instead of TensorFlow
+
+# ── Progress bars ─────────────────────────────────────────────────────────────
+tqdm==4.66.2
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
 jupyter==1.0.0
+ipython==8.24.0
 ipykernel==6.29.4
+notebook==7.1.3
