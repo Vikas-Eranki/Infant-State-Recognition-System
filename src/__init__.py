@@ -47,6 +47,17 @@ from src.model_dl import (
     convert_to_tflite,
 )
 
+from src.model_hybrid import (
+    extract_cnn_features,
+    extract_cnn_probabilities,
+    extract_svm_scores,
+    build_hybrid_features,
+    train_meta_classifier,
+    train_mlp_meta,
+    evaluate_hybrid,
+    validate_svm_ovr_shape,
+)
+
 
 __all__ = [
     # utils
@@ -79,4 +90,13 @@ __all__ = [
     "plot_confusion_matrix_dl",
     "plot_training_curves",
     "convert_to_tflite",
+    # model_hybrid (Phase 3)
+    "extract_cnn_features",
+    "extract_cnn_probabilities",
+    "extract_svm_scores",
+    "build_hybrid_features",
+    "train_meta_classifier",
+    "train_mlp_meta",
+    "evaluate_hybrid",
+    "validate_svm_ovr_shape",
 ]
